@@ -105,6 +105,39 @@
                                         />  
                                     </div>
                                 </div>
+                                <div>
+                                    <x-input-label for="cep" value="CEP" />
+                                    <div class="mt-1">
+                                        <x-text-input
+                                            type="text"
+                                            id="cep"
+                                            name="cep"
+                                            placeholder="CEP"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="col-span-2 sm:col-span-2">
+                                    <x-input-label for="rua" value="Rua" />
+                                    <div class="mt-1">
+                                        <x-text-input
+                                            type="text"
+                                            id="rua"
+                                            name="rua"
+                                            placeholder="Rua"
+                                        />
+                                    </div>
+                                </div>
+                                <div>
+                                    <x-input-label for="number" value="Numero" />
+                                    <div class="mt-1">
+                                        <x-text-input
+                                            type="text"
+                                            id="number"
+                                            name="number"
+                                            placeholder="Numero"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </div> 
                     </div>
