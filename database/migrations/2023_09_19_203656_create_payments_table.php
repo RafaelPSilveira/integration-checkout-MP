@@ -21,7 +21,7 @@ return new class extends Migration
             $table->integer('approved_at')->nullable();
             $table->text('qr_code_64')->nullable();
             $table->text('qr_code')->nullable();
-            $table->text('text_url')->nullable();
+            $table->text('ticket_url')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
