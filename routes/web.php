@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Livewire\Checkout;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,8 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('checkout.index');
+    return view('welcome');
 });
+
+Route::get('/checkout', Checkout::class)->name('checkout');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -17,8 +17,8 @@ class FeatureFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->randomElement(['Cor','Tamanho']),
-            'name' => $this->faker->word(),
+            'name' => $this->faker->randomElement(['Cor', 'Tamanho']),
+            'unit' => $this->faker->word(),
         ];
     }
 }
